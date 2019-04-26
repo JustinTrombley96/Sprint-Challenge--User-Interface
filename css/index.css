@@ -125,6 +125,21 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+header {
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+    background: white;
+    
+
+}
+header nav a {
+	display: inline-block;
+	padding: 30px;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+}
 
 footer {
     width: 100%;
